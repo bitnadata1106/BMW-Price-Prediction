@@ -58,6 +58,8 @@ BMW 중고차 데이터의 주요 변수(연식, 주행거리, 엔진 크기 등
 
 이러한 변수들이 가격 예측에 중요한 역할을 할 가능성을 확인했습니다.
 
+![heatmap_bmw](heatmap_bmw.png)
+
 4️⃣ Feature Engineering
 차량 출고 연도(year) 변수는 차량 연식(age) 변수로 바꾸었습니다.
 이는 차량 상태를 직관적으로 해석하기 위한 도메인 기반 Feature Engineering입니다.
@@ -94,9 +96,11 @@ Gradient Boosting
 추가적으로 Random Forest 모델의 과적합을 완화하기 위해
 트리 개수 등 하이퍼파라미터 튜닝을 실험적으로 수행했습니다.
 
+
 ### 가격(price)에 가장 큰 영향을 미치는 변수
 주행거리(mileage), 차량 연식(year), 엔진 크기(engineSize)
 
+![pearson_bmw](pearson_bmw.png)
 ---
 
 ## ⚠️ 한계와 도약 (Limitations & Next Steps) ​
