@@ -1,7 +1,6 @@
 # BMW-Price-Prediction
 BMW중고차량 가격 예측 머신러닝 모델링
-
-[![Open In Colab](https://colab.research.google.com/drive/1jNY-inzDLYmRgUrYoFEj_U29Yjlf3Y08?usp=sharing)]
+📓 [노트북 바로보기](googlecolab_bmw.ipynb)
 ---
 
 ## ✅ 배경 (Background)
